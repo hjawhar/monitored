@@ -1,9 +1,8 @@
 # Monitored
 ### Docker & PM2 instances checker
 <p>
-Using russh client, the app would connect to the server and collect data of running docker and pm2 instances<br>
-The following was initially designed to check my bots and other running services on my servers.<br>
-I know that there are other tools out there that do the job, for my case, the goal was to connect to multiple servers at the same time, rather than  one-by-one and having to open a bunch of terminals and repeat the same process over and over again.
+Using russh client, the application connects to specified servers and data collection of the available pm2 and docker instances.<br>
+The following was initially designed to check running services on multiple servers simultaneously, rather than one-by-one.
 </p>
 
 ## Usage
